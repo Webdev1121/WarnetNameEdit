@@ -33,7 +33,7 @@ if (getName === null || !isNaN(getName)){
     document.write();
 }
 
-var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT, SPASI WAJIB DI HAPUS < #00000 >);
+var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT, SPASI WAJIB DI HAPUS < #00000 >");
 
 
 if (getName === null || !isNaN(getName)){
