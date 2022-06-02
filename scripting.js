@@ -2,11 +2,11 @@ var warnet = prompt("Nama warnet mu apa ? ");
 
 
 if (warnet === null || !isNaN(warnet)){
-    while (getName !== null || isNaN(getName)){
+    while (warnet !== null || isNaN(warnet)){
         alert("Invalid , please try again");
         warnet = prompt("Nama warnet mu apa ?");
         console.log(warnet)
-       if (getName !== null || !isNaN(warnet)){
+       if (warnet !== null || !isNaN(warnet)){
            document.write();
            break;
        }
