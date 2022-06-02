@@ -1,12 +1,12 @@
-var Name = prompt("Nama warnet mu apa ? ");
+var warnet = prompt("Nama warnet mu apa ? ");
 
 
-if (getName === null || !isNaN(getName)){
+if (warnet === null || !isNaN(warnet)){
     while (getName !== null || isNaN(getName)){
         alert("Invalid , please try again");
-        getName = prompt("Siapa namamu ? ");
-        console.log(getName)
-       if (getName !== null || !isNaN(getName)){
+        warnet = prompt("Nama warnet mu apa ?");
+        console.log(warnet)
+       if (getName !== null || !isNaN(warnet)){
            document.write();
            break;
        }
