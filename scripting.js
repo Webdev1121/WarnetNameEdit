@@ -72,7 +72,4 @@ if (brtag === null || !isNaN(brtag)){
 
 var done = alert("Udah Selesai Nih:)");
 
-
-}else {
-    document.write("Copy Lalu Paste Ke Warnet life : ");
-}
+document.write("Copy Lalu Paste Ke Warnet life : ");
