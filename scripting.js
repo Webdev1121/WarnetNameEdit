@@ -15,7 +15,7 @@ if (getName === null || !isNaN(getName)){
     document.write();
 }
 
-var color = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel,contoh (spasi di buang) < #fffff > , WAJIB MENAMBAHKAN < DAN > !  ");
+var color = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel, contoh, SPASI WAJIB DI BUANG! < #fffff > , WAJIB MENAMBAHKAN < DAN > !  ");
 
 
 if (getName === null || !isNaN(getName)){
@@ -33,7 +33,7 @@ if (getName === null || !isNaN(getName)){
     document.write();
 }
 
-var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT (tidak pakai spasi) < #00000 >);
+var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT, SPASI WAJIB DI HAPUS < #00000 >);
 
 
 if (getName === null || !isNaN(getName)){
