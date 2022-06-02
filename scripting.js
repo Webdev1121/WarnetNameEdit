@@ -15,7 +15,25 @@ if (getName === null || !isNaN(getName)){
     document.write();
 }
 
-var color = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel contoh #fffff ");
+var color = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel,contoh <#fffff> , WAJIB MENAMBAHKAN < DAN > !  ");
+
+
+if (getName === null || !isNaN(getName)){
+    while (getName !== null || isNaN(getName)){
+        alert("Invalid , please try again");
+        getName = prompt("Siapa namamu ? ");
+        console.log(getName)
+       if (getName !== null || !isNaN(getName)){
+           document.write("Halo ", getName);
+           break;
+       }
+    }
+
+}else {
+    document.write();
+}
+
+var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT "<#00000>");
 
 
 if (getName === null || !isNaN(getName)){
@@ -50,6 +68,7 @@ if (getName === null || !isNaN(getName)){
 }else {
     document.write();
 }
+
 
 var done = alert("Udah Selesai Nih:)");
 
