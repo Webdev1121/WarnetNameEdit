@@ -18,13 +18,13 @@ if (warnet === null || !isNaN(warnet)){
 var color = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel, contoh, SPASI WAJIB DI BUANG! < #fffff > , WAJIB MENAMBAHKAN < DAN > !  ");
 
 
-if (getName === null || !isNaN(getName)){
-    while (getName !== null || isNaN(getName)){
+if (color === null || !isNaN(color)){
+    while (color !== null || isNaN(color)){
         alert("Invalid , please try again");
-        getName = prompt("Siapa namamu ? ");
-        console.log(getName)
-       if (getName !== null || !isNaN(getName)){
-           document.write("Halo ", getName);
+        getName = prompt("Mau Warna Apa ? Ketik Warna HTML nya di Gugel, contoh, SPASI WAJIB DI BUANG! < #fffff > , WAJIB MENAMBAHKAN < DAN > !  ");
+        console.log(color)
+       if (color !== null || !isNaN(color)){
+           document.write();
            break;
        }
     }
@@ -36,13 +36,13 @@ if (getName === null || !isNaN(getName)){
 var brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT, SPASI WAJIB DI HAPUS < #00000 >");
 
 
-if (getName === null || !isNaN(getName)){
-    while (getName !== null || isNaN(getName)){
+if (brcolor === null || !isNaN(brcolor)){
+    while (brcolor !== null || isNaN(brcolor)){
         alert("Invalid , please try again");
-        getName = prompt("Siapa namamu ? ");
-        console.log(getName)
-       if (getName !== null || !isNaN(getName)){
-           document.write("Halo ", getName);
+        brcolor = prompt("Warna Line Ke 2 / Warna < br> tag, Klik OK Jika tidak Mau, CONTOH INPUT, SPASI WAJIB DI HAPUS < #00000 >");
+        console.log(brcolor)
+       if (brcolor !== null || !isNaN(brcolor)){
+           document.write();
            break;
        }
     }
@@ -54,13 +54,13 @@ if (getName === null || !isNaN(getName)){
 var brtag = prompt("Line Ke 2 / < br> tag, Klik Cancel Jika tidak Mau.");
 
 
-if (getName === null || !isNaN(getName)){
-    while (getName !== null || isNaN(getName)){
+if (brtag === null || !isNaN(brtag)){
+    while (brtag !== null || isNaN(brtag)){
         alert("Invalid , please try again");
-        getName = prompt("Siapa namamu ? ");
-        console.log(getName)
-       if (getName !== null || !isNaN(getName)){
-           document.write("Halo ", getName);
+        brtag = prompt("Line Ke 2 / < br> tag, Klik Cancel Jika tidak Mau.");
+        console.log(brtag)
+       if (brtag !== null || !isNaN(brtag)){
+           document.write();
            break;
        }
     }
@@ -72,17 +72,6 @@ if (getName === null || !isNaN(getName)){
 
 var done = alert("Udah Selesai Nih:)");
 
-
-if (getName === null || !isNaN(getName)){
-    while (getName !== null || isNaN(getName)){
-        alert("Invalid , please try again");
-        getName = prompt("Siapa namamu ? ");
-        console.log(getName)
-       if (getName !== null || !isNaN(getName)){
-           document.write("Halo ", getName);
-           break;
-       }
-    }
 
 }else {
     document.write("Copy Lalu Paste Ke Warnet life : ");
