@@ -1,4 +1,4 @@
-var getName = prompt("Nama warnet mu apa ? ");
+var Name = prompt("Nama warnet mu apa ? ");
 
 
 if (getName === null || !isNaN(getName)){
