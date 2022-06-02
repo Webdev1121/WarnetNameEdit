@@ -68,5 +68,3 @@ if (brtag === null || !isNaN(brtag)){
 }else {
     document.write();
 }
-
-alert("Hasil Sudah Keluar!");
