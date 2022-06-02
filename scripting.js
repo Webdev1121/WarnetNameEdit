@@ -69,5 +69,4 @@ if (brtag === null || !isNaN(brtag)){
     document.write();
 }
 
-
-var done = alert("Udah Selesai Nih");
+alert("Hasil Sudah Keluar!");
