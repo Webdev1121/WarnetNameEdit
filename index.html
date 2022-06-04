@@ -44,7 +44,6 @@
       }
    
              .neu-1 {
-display: flex;
   margin: 100px;
         height: 500px;
         width: 800px;
@@ -71,7 +70,14 @@ box-shadow:  14px 14px 13px #2f8a88,
 }
   </style> 
 </head>
-  
+  <script>
+      // Use toLowerCase() to deal with case-sensitive searches later on
+var userAgent = navigator.userAgent.toLowerCase(),
+    userIsOnMobileDevice = checkIfUserIsOnMobileDevice(userAgent);
+if(userIsOnMobileDevice) {
+    alert("mobile user may have a broken view, we still fixing it :)");
+
+        </script>
 <body>
     <b>
         <h1 style="color: #3c3939;">Warnet Name Editor</h1>
