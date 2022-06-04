@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warnet Name Editor</title>
-    
+    <script src="https://kit.fontawesome.com/d6e78495c8.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <a href="https://github.com/webdev1121"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
 
     <center>
-        
+        <div class="toggle"> <!--Untuk latar belakang-->
+    <div class="circle"></div> <!--Icon lingkaran-->
+    <div class="toggle-moon"><i class="fas fa-moon"></i></div> <!--Icon bulan-->
+    <div class="toggle-sun"><i class="fas fa-sun"></i></div> <!--Icon matahari-->
+</div>
  <style>
      
      *{
@@ -54,6 +59,57 @@ box-shadow:  14px 14px 13px #2f8a88,
                    background-repeat: repeat;
                display: block;
              }
+}
+     
+     
+     html {  
+    transition: 0.4s;       /*Agar transisi pergantian dark mode smooth*/
+}
+
+.dark-mode {                /*Style dark mode*/
+    background: #2a2a39;
+    color: white;
+}
+
+.toggle {
+    width: 45px;
+    height: 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    transform: translateX(2px);
+    border-radius: 30px;
+    transition: 0.4s;
+    position: absolute;
+    background: white;
+}
+
+.dark-mode .circle {
+    transform: translateX(23px)
+}
+
+.toggle-moon, .toggle-sun {
+    width: 50%;
+}
+     
+     .dark-mode (selector) {
+	property: value;
+}
+
+/*Contohnya*/
+
+.dark-mode .circle {
+    transform: translateX(23px)
 }
   </style> 
 </head>
