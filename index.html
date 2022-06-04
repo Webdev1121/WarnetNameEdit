@@ -137,6 +137,30 @@ box-shadow:  14px 14px 13px #2f8a88,
     </script>
     </pre>
     </h5>
+	    <script>
+		    var html = $("html")
+
+$(function darkmode() {
+    $(".toggle").click(function() {
+        if (html.hasClass("dark-mode")) {
+            html.removeClass("dark-mode");
+            // mengatur local storage dengan value "false" :
+            localStorage.setItem("dark-mode", false);
+        }
+
+        else {
+            html.addClass("dark-mode");
+            // mengatur local storage dengan value "true" :
+            localSotrage.setItem("dark-mode", true);
+        }
+    })
+})
+        
+// Fungsi jika local storage memiliki key "dark-mode" dengan value "true" :
+if (localStorage.getItem("dark-mode") == "true") {
+	$(" html").addClass("dark-mode");
+}
+	    </script>
         </center>
     
  <p style="color: white;">Buggy and Not Stable</p>
